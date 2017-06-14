@@ -138,6 +138,31 @@ ul{
 }
 
 .block {
+	display: flex;
+	height: 50px
+	width: 100%;
+	justify-content: flex-start;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	
+}
+.block1{
+	width: 100%;
+	display: flex;
+	color:#999;
+	justify-content: flex-end;
+	font-size: 13px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+.block a{
+	margin-left: 10px;
+	font-size: 13px;
+	font-weight: 600;
+	display: flex;
+	justify-content:space-between;
+	align-content: space-between;
 }
 
 footer {
@@ -150,7 +175,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+/*  background-color: #efefef;*/
   text-align: center;
 }
 
@@ -223,6 +248,9 @@ footer {
 }
 
 div a{
+	text-decoration: none;
+	color: #003569;
+	font-family: sans-serif;
 }
 
 .noUnder {
